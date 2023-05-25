@@ -1,6 +1,6 @@
 <?php
-    $name = "Bro Code";
-    $food="pizza";
+    $name = "Hind";
+    $food="sushi";
     $email="fake123@gmail.com";
 
     $age=20;
@@ -17,7 +17,7 @@
 
     $total=null;
 
-    /*echo "Hello {$name}<br>";
+    echo "Hello {$name}<br>";
     echo "You like {$food}<br>";
     echo "Your email is {$email}<br>";
 
@@ -27,8 +27,8 @@
 
     echo "Your gpa is: {$gpa}<br>";
     echo "Your pizza is \${$price} <br>";
-    echo "The sales tax rate is: {$tax_rate}%<br>";*/
-    //echo "Online status: {$online}<br>" ->this gives 1 if online=true;
+    echo "The sales tax rate is: {$tax_rate}%<br>";
+    echo "Online status: {$online}<br>"; //this gives 1 if online=true;
 
     echo "You have ordered {$quantity}x {$food}s<br>";
     $total=$quantity*$price;
